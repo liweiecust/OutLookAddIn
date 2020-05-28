@@ -1,0 +1,16 @@
+#TYPE Selected.System.Management.Automation.PSCustomObject,,,,,,,,,,
+id,Description,time_saving_hour,RunPriority,SubTest_Count_bak,Find_In_Script,Sub_TestCase,Result,Detail,Iteration,note
+VSTS423,test,0,43,,C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\ARTbuild\InfoPlus21.dll,VSTS468797,PASS,,0,Aspen-V12-MSC-Media319.iso
+VSTS2069,[Fail with defect 7282]Office 365 integration test,2,42,,C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\ARTbuild\InfoPlus21.dll,VSTS29075,TBD,"[Iteration 1]: Test method InfoPlus21.TestCases.Atoms._29075.VSTS29075 threw exception: 
+System.Exception: Error executing 'getProperties'. Communication timeout between agent and application.    at SilkTest.Ntf.Communicator.SendMessage(Message message, Int32 timeout)
+   at SilkTest.Ntf.RemoteAgent.SendMessage(Message message)
+   at SilkTest.Ntf.RemoteAgent.SendMessage(String methodName, Object[] parameters)
+   at SilkTest.Ntf.RemoteAgent.Invoke(TestObject invokeObject, String methodName, IList parameters)
+   at SilkTest.Ntf.TestObject.Invoke(String methodName, Object[] parameters)
+   at SilkTest.Ntf.TestObject.WaitForProperty(String propertyName, Object expectedValue, Int32 timeout)
+   at InfoPlus21.TestCases.Atoms._29075.VSTS29075() in C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\TestCases\Atoms\29075.cs:line 60
+",1,Aspen-V12-MSC-Media319.iso
+VSTS2188,test,1,41,,C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\ARTbuild\InfoPlus21.dll,VSTS421224,PASS,"[Iteration 1]: Assert.IsTrue failed. operation should be successful   at InfoPlus21.TestCases.Redefine_Wizard._421224.VSTS421224() in C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\TestCases\Aspen InfoPlus.21\Redefine Wizard\421224.cs:line 60
+[Iteration 2]: Assert.IsTrue failed. operation should be successful   at InfoPlus21.TestCases.Redefine_Wizard._421224.VSTS421224() in C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\TestCases\Aspen InfoPlus.21\Redefine Wizard\421224.cs:line 60
+[Iteration 3]: Assert.IsTrue failed. operation should be successful   at InfoPlus21.TestCases.Redefine_Wizard._421224.VSTS421224() in C:\p4\qe\dev\AUTOMATION\InfoPlus21 Server\V12.0\InfoPlus21\TestCases\Aspen InfoPlus.21\Redefine Wizard\421224.cs:line 60
+",3,Aspen-V12-MSC-Media319.iso

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+
+        #resultsTable {
+            font-family: "Arial";
+            border-collapse: collapse;
+        }
+
+            #resultsTable td, #resultsTable th {
+                font-size: 1em;
+                border: 1px solid #ffffff;
+                background-color: #CCFFCC;
+                padding: 3px 7px 2px 7px;
+            }
+
+            #resultsTable th {
+                font-size: 1.5em;
+                font-family: "Arial";
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 4px;
+                background-color: #e0fc85;
+                color: rgb(217,217,217);
+            }
+
+            #resultsTable tr.alt td {
+                color: #000000;
+                background-color: #CCFFCC;
+            }
+    </style>
+</head>
+
+<body>
+
+    <table id="resultsTable">
+        <!--Specify Width of first column-->
+        <col width="200";>
+
+        <tr>
+            <th colspan="2">SUMMARY</th>
+        </tr>
+        <tr>
+            <td><b>Comment</b></td>
+            <td>32bit_IP21Server</td>
+
+
+        <tr>
+            <td><b>Test Cases Logged</b></td>
+            <td>2</td>
+
+        </tr>
+        <tr>
+            <td><b>Test Cases Not Logged</b></td>
+            <td>1</td>
+
+        </tr>
+        <tr>
+            <td><b>Total Test Cases</b></td>
+            <td>3</td>
+
+        </tr>
+
+
+    </table>
+
+
+
+    <style>
+
+
+        #detailedSummaryTableDiv {
+            width: 1200px;
+        }
+
+        #detailedSummary {
+            font-family: "Arial";
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+            #detailedSummary td, #detailedSummary th {
+                font-size: 1em;
+                border: 1px solid #ffffff;
+                background-color: #CCFFFF;
+                padding: 3px 7px 2px 7px;
+            }
+
+            #detailedSummary th {
+                font-size: 1.5em;
+                font-family: "Arial";
+                text-align: center;
+                padding-top: 5px;
+                padding-bottom: 4px;
+                background-color: #FFFFCC;
+                color: #000000;
+            }
+
+            #detailedSummary tr.header td {
+                border: 1px solid #000000;
+            }
+
+            #detailedSummary td {
+                border: 1px solid #123455;
+            }
+
+                #detailedSummary td.left {
+                    width: 15%;
+                    word-wrap: break-word;
+                }
+
+                #detailedSummary td.right {
+                    width: 80%;
+                }
+
+                #detailedSummary td.pass {
+                    width: 5%;
+                    text-align: center
+                }
+
+                #detailedSummary td.NA {
+                    width: 5%;
+                    text-align: center;
+                    background-color: Gray;
+                    color: #FFFFFF;
+                }
+
+                #detailedSummary td.fail {
+                    width: 5%;
+                    text-align: center;
+                    background-color: #FF5050;
+                    color: #FFFFFF;
+                }
+        }
+    </style>
+    <div id="detailedSummaryTableDiv">
+        <table id="detailedSummary">
+            <!--Specify Width of first column-->
+
+
+
+            <tr>
+                <th colspan="3">Test Case Description</th>
+            </tr>
+            <tr class="header">
+                <td><b>Test Case ID</b></td>
+                <td><b>Case description</b></td>
+                <td><b>Logged</b></td>
+            </tr>
+            <!--marker.table_begin-->
+            <tr><td class="left">VSTS2069</td><td>[Fail with defect 7282]Office 365 integration test</td><td class="pass">Analysis required</td></tr><!--marker.table_end-->
+
+        </table>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
